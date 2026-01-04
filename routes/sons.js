@@ -4,10 +4,10 @@ const catchAsync = require('../utils/catchAsync');
 const {isLoggedIn, isProfileOwner} = require('../middleware');
 const sons = require('../controllers/sons');
 
-router.get('/', isLoggedIn, catchAsync(sons.index));
+router.get('/', catchAsync(sons.index));
 
 router.route('/:id')
-    .get(isLoggedIn, catchAsync(sons.showSon))
+    .get(catchAsync(sons.showSon))
     .delete(isLoggedIn, isProfileOwner({type: 'son'}), catchAsync(sons.deleteSon))
 
 

@@ -18,7 +18,7 @@ module.exports.showSon = async (req, res) => {
 
 module.exports.register = async (req, res, next) => {
     const { email, password, name, surname, dateOfBirth, address, aboutYou, images, job, education, organizations, hobbies, socialMedia } = req.body;
-    const user = new User({ email, name, role: 'parent' });
+    const user = new User({ email, name, role: 'son' });
     let registeredUser = {};
     try {
         registeredUser = await User.register(user, password);

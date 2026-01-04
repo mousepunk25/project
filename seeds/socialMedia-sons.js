@@ -4,7 +4,7 @@ module.exports = [
         "media": [
             {
                 "website": "Facebook",
-                "url": "https://www.facebook.com/p/Jonathan-Bailey-100069785634245/?locale=pl_PL",
+                "url": "https://www.facebook.com/p/Jonathan-Bailey-100069785634245/",
             },
             {
                 "website": "Instagram",
@@ -17,7 +17,7 @@ module.exports = [
         "media": [
             {
                 "website": "Facebook",
-                "url": "https://www.facebook.com/timotheechalamet95/?locale=pl_PL",
+                "url": "https://www.facebook.com/timotheechalamet95/",
             },
             {
                 "website": "Instagram",
@@ -69,7 +69,7 @@ module.exports = [
         "media": [
             {
                 "website": "Facebook",
-                "url": "https://www.facebook.com/officialtomcruise/?locale=pl_PL",
+                "url": "https://www.facebook.com/officialtomcruise/",
             },
             {
                 "website": "Instagram",
